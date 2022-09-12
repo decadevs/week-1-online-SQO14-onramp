@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer cards</title>
+    <link rel='stylesheet' type ='text/css' href='style.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://kit.fontawesome.com/7731dfb6dc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- card container -->
+    <section class="card-container">
+        <div class="card-subcontainer">
+            <h2 class="first-headings">What our customers say</h2>
+           <!-- card boxes section -->
+            <div class="card-boxes">
+                <!-- first card section -->
+                <div class="card one">
+                    <div class="avatar-twitter">
+                        <img class="sara-image" src="data:image/jpeg;base64,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" alt="This is a sara may avatar image">
+                        <div class="avatar-info">
+                            <div class="avatar-details">
+                                <p class="name">Sara May</p>
+                                <p class="link">@sara_may</p>
+                            </div>
+                            <div class="twitter-box"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                    </div>
+                    <p class="headline-one">I just tried out @chirp and it's <br> amazing, love all
+                        the analytics I can <br> see.
+                    </p>
+                    <div class="heart-date">
+                        <div class="heart-number">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>2</span>
+                        </div>
+                        <div class="date">
+                            <p class="march">March 2, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- second card section -->
+                <div class="card two">
+                    <div class="avatar-twitter">   
+                        <img class="sara-image" src="https://i.discogs.com/Ub-ygzor_Jktr09m3VEB1pJOnqs6ZB7d6wfAtEBJ94Q/rs:fit/g:sm/q:90/h:433/w:432/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTM5ODY2/NS0xMTQ0ODMzODg3/LmpwZWc.jpeg" alt="This is a sara may avatar image">  
+                        <div class="avatar-info">
+                            <div class="avatar-details">
+                                <p class="name">Jack Scott</p>
+                                <p class="link">@jackscott_</p>
+                            </div>
+                            <div class="twitter-box"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                    </div>
+                    <p class="headline-two">I initially started using Chirp to <br> support the co-founder as I <br>
+                        personally knew him, but after <br> having tried it out for a weeks,
+                        I <br> can genuinely say this changed my <br> Twitter game.
+                    </p>
+                    <div class="heart-date">
+                        <div class="heart-number">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>32</span>
+                        </div>
+                        <div class="date">
+                            <p class="march">March 2, 2021</p>
+                        </div>
+                    </div>
+                </div>
+                <!--third card section-->
+                <div class="card one">
+                    <div class="avatar-twitter">
+                        <img class="sara-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNEblaBTkg1RxdG5TsbjPXercst9791miCjg&usqp=CAU" alt="This is a sara may avatar image">
+                        <div class="avatar-info">
+                            <div class="avatar-details">
+                                <p class="name">Jessica May</p>
+                                <p class="link">@jmay98</p>
+                            </div>
+                            <div class="twitter-box"><i class="fa-brands fa-twitter"></i></div>
+                        </div>
+                    </div>
+                    <p class="headline-three">Absolutely love everything about <br> Chirp, from the design
+                        to how <br> everything works smoothly.
+                    </p>
+                    <div class="heart-date">
+                        <div class="heart-number">
+                            <i class="fa-regular fa-heart"></i>
+                            <span>221</span>
+                        </div>
+                        <div class="date">
+                            <p class="march">March 2, 2021</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--bottom container section-->
+    <section class="bottom-container">
+        <h2 class="simple">
+            One simple price plan.
+        </h2>
+        <p class="growing">Start growing your Twitter account by analyzing your follower's <br> patterns</p>
+        <div class="monthly-container">
+            <p class="word-one">Monthly</p>
+            <p class="word-two">$9 <span class="mo">/mo</span></p>
+            <div class="middle-box">
+                <div class="mark-one">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="mark-word">Unlimited* scheduled tweets and threads.</div>
+                </div>
+                <div class="mark-one">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="mark-word">Schedule up to 3 weeks in advance.</div>
+                </div>
+                <div class="mark-one">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <div class="mark-word">Real-time audience analytics tracking up to 5k <br> followers</div>
+                </div>
+            </div>
+            <div class="trial-btn">
+                <i class="fa-brands fa-twitter trial-twitter"></i>
+                <p class="trial-words">Start Trial with Twitter</p>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>

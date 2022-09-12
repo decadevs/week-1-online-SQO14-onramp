@@ -1,0 +1,179 @@
+@import url('https://fonts.google.com/specimen/Open+Sans');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 1);
+}
+img{
+    max-width:100%;
+    height:auto;
+    border-radius: 50%;
+    
+}
+
+.card-container{
+    background-color: rgba(191, 230, 218, 0.74);
+    padding: 50px; 
+    justify-content: center; 
+}
+
+.first-headings{
+    /* border: 2px solid ; */
+    font-size: 3.2vh;
+    
+}
+.card-boxes{
+    display: flex; 
+    justify-content: center;
+    margin-top: 20px;
+    /* border: 2px solid blue; */
+    width: 100%;
+    
+}
+.sara-image{
+    /* border: 2px solid; */
+    width: 25%;
+}
+.avatar-details{
+    /* border: 2px solid red; */
+    font-size: 1.8vh;
+    padding-top: 5px;
+}
+.name{
+    font-size: 1.8vh;
+    font-weight: 700;
+    margin-bottom: 3px;
+}
+.link{
+    font-size: 1.5vh;
+}
+.twitter-box{
+    /* border: 2px solid blueviolet; */
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.avatar-info{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    justify-content: space-between;
+    margin-left: 8px;
+    padding-top: 8px;
+    width: 100%;
+}
+.avatar-twitter{
+    display: flex;
+    /* border: 3px solid blue; */
+}
+.card{
+    /* border: 2px solid red; */
+    margin-right: 30px; 
+    padding: 20px;
+    background-color: white; 
+    height: 100%;
+    width: 40%;
+}
+.fa-twitter{
+    color: rgb(39, 128, 229);
+    font-size: 32px;
+}
+.headline-one,.headline-two,.headline-three{
+    /* border: 2px solid green; */
+    margin-top: 20px;
+    line-height: 24px;
+    font-size: 1.6vh;
+
+}
+.heart-date{
+    margin-top: 15px;
+    /* border: 2px solid blue; */
+    font-size: 1.8vh;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-heart{
+    color: red;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.bottom-container{
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+.simple{
+    text-align: center;
+    margin-bottom: 20px;
+    /* border: 2px solid ; */
+    font-size: 3.2vh;
+}
+.growing{
+    line-height: 24px;
+    font-size: 1.8vh;
+}
+.monthly-container{
+    border: 2px solid rgb(244, 119, 65);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 30px;
+    background-color: rgb(243, 242, 241);
+    border-radius: 12px;
+
+}
+.word-one{
+    font-size: 1.8vh;
+}
+.word-two{
+    font-weight: 700;
+    font-size: 32px;
+}
+.mo{
+    font-size: 2.5vh;
+    font-weight: 100;
+}
+.middle-box{
+    border-top: 2px solid rgb(184, 183, 182);
+    border-bottom: 2px solid rgb(184, 183, 182);
+    padding: 20px 0px 10px 0px;
+    margin: 20px 0px 20px 0px;
+}
+.mark-one{
+    margin-bottom: 18px;
+    display: flex;
+}
+.fa-circle-check{
+    color: rgb(71, 234, 71);
+    font-size: 24px;
+    margin-right: 30px;
+}
+.mark-word{
+    font-size: 1.8vh;
+    /* font-size: 14px; */
+}
+.trial-btn{
+    /* border: 3px solid purple; */
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: rgb(89, 148, 219);
+    color: white;
+    margin-top: 10px;
+    font-size: 2vh;
+}
+.trial-twitter{
+    color: white;
+    margin-right: 30px;
+}
+.trial-words{
+    padding-top: 8px;
+}
