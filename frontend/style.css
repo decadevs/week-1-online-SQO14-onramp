@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 ul,
@@ -39,11 +39,15 @@ main {
 
 .card {
   background-color: #fff;
-  width: 350px;
+  width: 320px;
   height: 250px;
   padding: 30px;
   border-radius: 10px;
   margin-bottom: 10px;
+}
+
+.card-section h1 {
+  font-size: 45px;
 }
 
 .card.primary {
@@ -53,25 +57,21 @@ main {
 .card-profile {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card-img {
   width: 60px;
   height: 60px;
-  /* height: 50px; */
-  /* border-radius: 200%; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 5px; */
   overflow: hidden;
   clip-path: circle();
 }
 
 .card-img img {
   width: 100%;
-  /* height: 100%; */
-  /* border-radius: 50%; */
 }
 
 .card-profile-info {
@@ -129,9 +129,10 @@ main {
 .price__card-container p {
   font-size: 14px;
   color: #555;
-  margin: 15px 0;
-  max-width: 500px;
+  margin: 15px auto;
+  max-width: 400px;
   width: 100%;
+  text-align: center;
 }
 
 .price-card {
@@ -146,6 +147,9 @@ main {
 
 .price-card p {
   font-size: 18px;
+  margin: 0;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .price-card h3 {
@@ -203,7 +207,16 @@ main {
   font-size: 16px;
 }
 
+.price-button img {
+  display: flex;
+  margin-right: 10px;
+  width: 20px;
+}
+
 @media (max-width: 520px) {
+  .card-section {
+    padding: 50px 50px;
+  }
   .card,
   .card.card.primary {
     height: auto;
