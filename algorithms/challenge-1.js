@@ -1,4 +1,3 @@
-// Challenge
 // Implement an array that takes an array and returns the num of truthy values
 // Steps
 // 1. Loop through the array
