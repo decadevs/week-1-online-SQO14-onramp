@@ -11,7 +11,7 @@ function countTruthy(arr) {
         if (arr[i] > 0) {
             arr2.push(arr[i]);
         }
-        return arr2.length;
+        console.log(arr2.length);
     }
 }
 
