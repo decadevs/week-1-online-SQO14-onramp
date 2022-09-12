@@ -15,7 +15,7 @@
 }
 
 .testimonial {
-    background-color: aqua;
+    background-color: #E0FFFF;
     height: 70%;
     padding: 70px;
 }
@@ -23,12 +23,11 @@
 .wrapper {
     display: flex;
     gap: 15px;
-    /* background-color: lightblue; */
 }
 
 .cards {
-    height: 100%;
     width: 50%;
+    height: 70%;
     padding: 20px;
     background: #fff;
     border-radius: 5px;
@@ -42,7 +41,6 @@
 
 .cards_2 {
     padding: 20px;
-    height: 100%;
     width: 50%;
     background-color: #fff;
     border-radius: 5px;
@@ -67,6 +65,10 @@ img {
     display: block;
 }
 
+.tweet_details {
+    /* display: flex; */
+}
+
 .pricing_wrapper {
     text-align: center;
     display: flex;
@@ -78,11 +80,12 @@ img {
 }
 
 .pricing_card {
-    border: 3px solid orange;
-    height: 300px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    height: 320px;
     margin: 0 auto;
     margin-bottom: 30px;
-    width: 20%;
+    width: 22%;
     text-align: center;
     padding: 25px;
     display: block;
@@ -97,8 +100,38 @@ img {
     font-weight: bold;
 }
 
-hr {
-    width: 50%;
-    margin: 0 auto;
-    color: black;
+.services {
+    text-align: left;
+    font-size: 13px;
+    display: inline-block;
+    margin: 8px auto;
+    padding: 10px;
+
+}
+
+ol {
+    padding: 5px;
+}
+
+ol:nth-last-child(1) {
+    margin-bottom: 10px;
+}
+hr:nth-of-type(1) {
+    width: 100%;
+    margin: 15px auto 0;
+}
+
+hr:nth-of-type(2) {
+    width: 100%;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+button {
+    width: 100%;
+    padding: 4px;
+    color: #fff;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 3px;
 }
