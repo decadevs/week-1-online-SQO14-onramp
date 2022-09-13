@@ -3,4 +3,5 @@ function countTruthy(arr) {
 }
 console.log(countTruthy([6, 3, 0, 30, 7]));
 
+
 module.exports = countTruthy
