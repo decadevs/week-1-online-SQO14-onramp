@@ -1,0 +1,36 @@
+img {
+  border-radius: 80%;
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  height: 450px;
+  width: 100%;
+  background-color: #ecc5fb;
+}
+
+.thirdcon {
+  height: 450px;
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.box {
+  margin-top: 50px;
+  height: 250px;
+  width: 200px;
+  padding: 20px;
+  background-color: #ffff;
+}
+.x {
+  height: 300px;
+}
+.price {
+  height: 350px;
+  border: 2px solid red;
+  width: 300px;
+  margin: auto;
+}
