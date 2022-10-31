@@ -7,7 +7,7 @@ function calculateGrade(marks) {
 
   if (avg < 50) {
     return "F";
-  } else if (avg >= 50 && avg < 60) {
+  } else if (avg >= 50.00 && avg < 60){
     return "E";
   } else if (avg >= 60 && avg < 70) {
     return "D";
