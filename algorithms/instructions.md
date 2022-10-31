@@ -20,8 +20,7 @@ number: if it is not divisible by 3 or 5
     fizzBuzz(5) to return "buzz" 
     fizzBuzz(15) to return "fizz" 
     fizzBuzz(7) to return 7 
-    filterArray([4, "z", "f", 5]) to return [4,5]
-    filterArray(["$%^", 567, "&&&"]) to return [567]
+   
 # Challenge 3
 
 Implement the function sumMix(arr) that given an array of integers as strings and numbers, returns the sum of the array values as if all were numbers.
