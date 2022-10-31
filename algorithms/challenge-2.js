@@ -6,7 +6,7 @@ function fizzBuzz(input) {
   } else if (input % 3 == 0) {
     return "fizz";
   } else {
-    return Input;
+    return input;
   }
 }
 
