@@ -1,0 +1,171 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+}
+body .container{
+    padding-top: 0.5rem;
+    padding-right: 0rem;
+    padding-left:0rem;
+    margin: 0rem;
+    
+}
+.row1{
+    background-color: rgb(183, 220, 239);
+    padding: 2rem 15%;
+         
+}
+.rowrow2{
+    display: inline-flex;
+    padding-right: 0rem;
+}
+
+
+.column1{
+    width: 18rem;
+    height: 12rem;
+    background-color: whitesmoke;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1.53rem 1.2rem;
+    
+}
+.acct{
+    display: inline-flex;
+}
+
+
+.pseudonym p{
+    font-size: 0.8rem;
+    font-weight: bolder;
+    margin-top: 0.85rem;
+    line-height: 0.3rem;
+    margin-left:0.325rem;
+}
+.nym{
+    color: red;
+    font-size:0.5rem;
+    
+
+}
+.twitter-icon{
+    margin-left:90%;
+    left: 20%;
+    margin-top: 0.65rem;
+}
+.post{
+    margin-top:1.5rem;
+}
+.post p{
+    font-weight: lighter;
+    color:gray;
+}
+.remark{
+    display: inline-flex;
+    margin-top: 1.5rem;
+
+}
+.like{
+    display: inline-flex;
+    margin-right: 0.5rem;
+}
+.num{
+    margin-left: 0.343rem;
+    font-size: 0.745 rem;
+    margin-top:0.401rem;
+    
+}
+.remark{
+    width: 100%;
+}
+.date{
+    
+    margin-top: 0.401rem;
+    word-wrap: normal;
+    margin-left: 45%;
+}
+#date{
+
+    font-size: medium;
+    font-weight:300;
+
+    
+}
+
+
+.column2 {
+    width: 18rem;
+    height: 16rem;
+    background-color: whitesmoke;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1.53rem 1.2rem;
+
+    
+
+}
+.column3 {
+    width: 18rem;
+    height: 12rem;
+    background-color: whitesmoke;
+    margin-right: 0.5rem;
+    margin-bottom: 2rem;
+    padding: 1.53rem 1.2rem;
+    
+}
+.row2{
+    margin-top: 3.8rem;
+    width: 26rem;
+    margin-left: 38%;
+
+
+}
+.row3 {
+    margin-top: 3.8rem;
+    width: 23rem;
+    margin-left: 38%;
+    background-color: antiquewhite;
+    border: solid burlywood;
+    margin-bottom: 5rem;
+    padding: 2rem 1.5rem;
+
+}
+.price{
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p span{
+    font-weight: 700;
+    font-size: xx-large;
+    color:black;
+    
+
+}
+#price{
+    color: black;
+    margin-bottom: 1.45rem;
+}
+#info{
+    margin-top: 0.5rem;
+    margin-bottom: calc(1.45rem  - 0.5rem);
+    color: grey;
+}
+#info i{
+    margin-right: 0.4rem;
+    transform: translateY(0.14rem);
+    
+}
+button{
+    margin-top: 0.5rem;
+    margin-bottom: calc(1.45rem - 0.5rem);
+    width: 23rem;
+    height: 2.1rem;
+    background-color:rgb(78, 78, 227);
+    color:white;
+    border:solid rgb(78, 78, 227);
+    border-radius: 0.3rem;
+}
+button i{
+    transform: translateY(0.16rem);
+    margin-right: 0.9rem;
+}
