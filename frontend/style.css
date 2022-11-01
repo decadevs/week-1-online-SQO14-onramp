@@ -1,0 +1,187 @@
+
+.body {
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'Roboto', sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue';
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin-left:0;
+}
+
+.testimony{
+   background-color:#92dfe966;
+   padding-left: 128px;
+   padding-right:128px ;
+   padding-top:20px ;
+   padding-bottom: 70px;
+}
+.testimony h1{
+   width: 100%;
+   font-size: 2.5rem;
+   font-weight: bold;
+   
+}
+
+.customer_container{
+   width: 100%;
+   display: flex; 
+
+}
+
+.customer1{
+   width: 25%;
+   background-color: white;
+   border-radius: 8px;
+   padding: 25px 15px;
+   margin-right: 20px;
+}
+
+.pic {
+   display: flex;
+   justify-content: space-between;
+}
+
+.cimg{
+   width: 20%;
+   height: 20%;
+   border-radius: 50%;
+  
+}
+.t_logo{
+   width: 10%;
+   height: 15%;
+}
+
+p{
+   
+   font-size: 18px;
+}
+.name{
+   margin-left: -68px;
+   margin-top: 3.8px;
+   font-size: 20px;
+   font-weight: bold;
+
+}
+span{
+   font-size: 16px;
+   color: gray;
+
+}
+.txt{
+   
+   color: grey;
+   font-size: 18px;
+   line-height: 34px;
+   margin-bottom: 33px;
+
+}
+
+.like{
+   display: flex;
+   justify-content: space-between;
+}
+
+.like_count{
+   width: 3%;
+   height: 20px;
+   margin-right: 206px;
+}
+
+.counter{
+   margin-left: -320px;
+}
+
+.date{
+   margin-top: 0;
+   margin-bottom: 0;
+   color: grey;
+}
+
+.mx{
+   margin-left: auto;
+   margin-right:auto;
+}
+
+.customer2{
+   width: 25%;
+   background-color: white;
+   border-radius: 8px;
+   padding: 25px 15px;
+   margin-right: 20px;
+}
+
+.customer3{
+   width: 20%;
+   background-color: white;
+   border-radius: 8px;
+   padding: 25px 15px;
+   margin-right: 20px;
+}
+
+.subscription{
+   padding: 5%;
+   padding-bottom: 15%;
+}
+
+.centre{
+   text-align: center;
+}
+
+.subscription h1{
+   text-align: center;
+   width: 100%;
+   font-size: 2.5rem;
+   font-weight: bold
+}
+
+
+.subscribed{
+   position: absolute;
+   left: 50%;
+   transform: translateX(-50%);
+   width: 35%;
+   color: gray;
+   background-color: rgb(241 207 223 / 17%);
+   border-radius: 8px;
+   border: 2px solid orangered;
+   padding: 20px  20px;
+   
+}
+
+.amt{
+   font-size: xx-large;
+   color: black;
+   font-weight: 900;
+}
+.border{
+   border-bottom: 2px solid #cdc4c4;
+   padding-bottom: 15px;
+}
+
+.chck{
+   width: 18px;
+   height: 18px;
+}
+
+.btn{
+   background-color: #26b3ebe8;
+   padding: 21px 128px;
+   text-align: center;
+   color: white;
+   font-size: 1.4rem;
+   border-radius: 8px;
+  
+}
+
+.btn_logo{
+   width: 30px;
+   height: 30px;
+
+}
+
