@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0px ;
     padding: 0px;
@@ -19,6 +21,27 @@ h3 {
     padding-bottom: 2rem;
 }
 
+.box-1 {
+    padding: 1rem;
+    border-radius: 6px;
+    height: 100%;
+    background: #fff;
+    flex: 1;
+}
+
+.sara-box {
+    border: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sara-may {
+    display:flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
 .container {
     background-color: rgb(204, 242, 242);
     display: grid;
@@ -35,13 +58,13 @@ h3 {
     padding-bottom: 3rem;
 }
 
-.box-1 {
-    padding: 1rem;
-    border-radius: 6px;
-    height: 100%;
-    background: #fff;
-    flex: 1;
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
 }
+
 
 .box-2 {
     padding: 1rem;
@@ -57,4 +80,89 @@ h3 {
     height: 100%;
     background: #fff;
     flex: 1;
+}
+
+/* price session */
+
+.wrapper {
+    margin: 5rem 0;
+}
+
+.wrapper .plan {
+    text-align: center;
+}
+
+.price-plan {
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    color: rgb(116, 115, 115);
+}
+
+.card {
+    background-color: rgb(249, 241, 226);
+    padding: 1.5rem;
+    width: 400px;
+    margin:2rem auto 0 auto;
+    border: 1px solid orange;
+    border-radius: 6px;
+    color: rgb(116, 115, 115);
+}
+
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: rgb(199, 195, 195);
+}
+
+.checked-text {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.checked-text i {
+    color: rgb(85,202, 85);
+    font-size: 18px;
+}
+
+.checked-text span {
+    font-size:14px;
+}
+
+.card .pricing {
+font-size: 2.5rem;
+font-weight: 700px;
+color: black;
+}
+
+button {
+    border: none;
+    border-radius: 6px;;
+    padding: 12px  0;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: center;
+    background-color: #1da1f2;
+}
+
+button i {
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    .card {
+    width: 100px;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    }
 }
