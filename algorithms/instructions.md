@@ -40,7 +40,7 @@ Implement the function calculateGrade(marks) that takes an array of grades and c
 80-89: B
 90-100: A
 # Example
-    calculateGrade([80, 80, 70]) to  return A
+    calculateGrade([80, 80, 70]) to return A
     calculateGrade([19, 5, 42, 2, 77]) to return 'F'
     calculateGrade([59, 80, 40, 2, 77]) to return 'E'
     calculateGrade([89, 50, 40, 90, 77]) to return 'D'
