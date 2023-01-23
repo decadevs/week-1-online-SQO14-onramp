@@ -31,4 +31,8 @@ console.log(sumMix(['5', '0', 9, 3, 2, 1, '9', 6, 7]))
 console.log(sumMix(['3', 6, 6, 0, '5', 8, 5, '6', 2,'0']))
 
   module.exports = sumMix
+<<<<<<< HEAD
   
+=======
+  */
+>>>>>>> d31b529f62ed54103270807326b52046766823e4
