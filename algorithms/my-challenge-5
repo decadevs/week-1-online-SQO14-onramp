@@ -1,0 +1,21 @@
+    /*function multiply(arr) {                                                 //Given an array of numbers, 
+          let num = arr.length                                                //multiply each number in the array 
+      return(arr.sort((a,b) => b - a).map((item) => item * num))             //by the number of elements in the array in descending order
+}
+
+console.log(multiply([2,5,3,1,6]))
+*/
+
+
+  function multiplyByLength(arr) {
+        let n = arr.length;
+        let newArr = []
+    
+        for (let i = 0; i <= arr.length; i++) {
+         mul = arr[i] * n
+          newArr.push(mul)
+        }
+        return newArr.sort((a,b) => b - a); 
+      }
+      
+console.log(multiplyByLength([2,5,3,1,6]))

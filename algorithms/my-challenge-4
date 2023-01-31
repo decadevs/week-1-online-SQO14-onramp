@@ -1,0 +1,13 @@
+function allSum(words, min) {
+    let totalLength = 0;
+    for (let i = 0; i < words.length; i++) {
+      if (words[i].length > min) {
+        totalLength += words[i].length;
+      }
+    }
+    return totalLength;
+  }
+
+  //Write a function that returns the sum of the length of all words 
+  //greater than a minimum value in an array.
+

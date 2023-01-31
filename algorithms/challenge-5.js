@@ -1,10 +1,10 @@
 function filterList(arr) {
-    let i = 0
-
-    const array = arr;
-    const newArr = array.filter((arr) => typeof(arr) === 'number')
-    return newArr;
+    
+    const array = arr
+   const newArr = array.filter((arr) => typeof(arr) === 'number')
+ return newArr;
 }
+
 
  console.log(filterList([1,2,'a','b']))
  console.log(filterList([1,'a','b',0,15]))

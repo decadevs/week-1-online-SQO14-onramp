@@ -1,13 +1,14 @@
 function countTruthy(arr) {
-let i = 0
+let count = 0
 let newArr = [];
 
-for (i = 0; i < arr.length; i++) {
+for (let i = 0; i < arr.length; i++) {
       if (typeof(arr[i]) === 'number' && arr[i] !== 0) {
          newArr.push(arr[i]);
+         count++
          } 
    }
-    return newArr.length
+    return count
    }
 
 console.log(countTruthy([6, 3, 0, 30, 7]))

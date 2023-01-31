@@ -36,7 +36,8 @@ function calculateGrade(marks) {
 
 
 
-    /*Implement the function calculateGrade(marks) that takes an array of grades and calculates the average. It should return the average grade by comparing with the grade table
+    /*Implement the function calculateGrade(marks) that takes an array of grades and calculates the average. 
+    //It should return the average grade by comparing with the grade table
 1-49: F
 50-59: E
 60-69: D
