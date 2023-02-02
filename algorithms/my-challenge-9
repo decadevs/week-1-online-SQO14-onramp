@@ -1,0 +1,12 @@
+function isAnagram (word1, word2) {                           //Implement a function isAnagram that returns true if two words are anagrams 
+                                                            // and return false if the words are not. Also return false if no words were given
+    const newWord1 = word1.split("").sort().join("");
+    const newWord2 = word2.split("").sort().join("");
+
+    return newWord1 === newWord2;
+}
+
+console.log(isAnagram('below', 'elbow'))
+console.log(isAnagram('remit', 'emit'))
+console.log(isAnagram('hoes', 'shoe'))
+console.log(isAnagram('meteor', ''))

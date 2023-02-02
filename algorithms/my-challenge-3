@@ -1,6 +1,33 @@
-//Return the number (count) of vowels in the given string.
-//We will consider a, e, i, o, u as vowels for this data
-//The input string will only consist of lower case letters and or spaces.
+/*function countVowels(str) {                              //Return the number (count) of vowels in the given string.
+    let vowels = 'aeiou';                                //We will consider a, e, i, o, u as vowels for this data
+    let count = 0;                                      //The input string will only consist of lower case letters and or spaces.
+    for (let char of str.toLowerCase()) {                               //#Example : 'test' ----> 1
+      if (vowels.includes(char)) {                        //#Example : 'tablet' ----> 2
+        count++;
+      }
+    }
+    return count;
+  }
 
-//#Example : 'test' ----> 1
-//#Example : 'tablet' ----> 2
+  console.log(countVowels('test'))
+  console.log(countVowels('CynthiA'))
+  console.log(countVowels('tablet'))
+*/
+
+
+  function getVowels(str) {                                       //Return the vowels in the given string.
+    let vowels = "aeiou";                                        //We will consider a, e, i, o, u as vowels for this data
+    let result = "";                                              //The input string will only consist of lower case letters and or spaces.
+  
+    for (let char of str.toLowerCase()) {                        //#Example : 'test' ----> 'e'
+      if (vowels.includes(char)) {                               //#Example : 'tablet' ----> 'a,e'
+        result += char + ",";
+      }
+    }
+  
+   return result.slice(0, -1);
+  }
+  
+  console.log(getVowels('test'))
+  console.log(getVowels('CynthiA-dikE'))
+  console.log(getVowels('tablet'))

@@ -8,7 +8,7 @@ for (let i = 0; i < arr.length; i++) {
          count++
          } 
    }
-    return count
+    return count;
    }
 
 console.log(countTruthy([6, 3, 0, 30, 7]))

@@ -1,0 +1,14 @@
+function getMiddle(str) {                      //create a function getMiddle that returns the middle letter if the word is odd 
+    let mid = Math.floor(str.length / 2)       // or returns the two middle letters if the word is even. 
+
+    if(str.length % 2 == 0) {                       //#Example
+        return str[mid - 1] + str[mid]              //'bring' should return 'i'
+    } else {                                        //'test' should return 'es'
+        return str[mid]
+    }
+   }
+
+console.log(getMiddle('bring'))
+console.log(getMiddle('Gift'))
+console.log(getMiddle('Cynthia'))
+console.log(getMiddle('Orange'))

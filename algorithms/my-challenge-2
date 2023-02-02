@@ -6,7 +6,7 @@ if (cen % 100 === 0) {                //The second century - from the year 101 u
     //return Math.floor(cen / 100) + 1  
     //return parseInt(cen / 100) + 1   
 }                                            //Task
-}                                            Given a year, return the century it is in
+}                                            //Given a year, return the century it is in
                                              
                                              //Examples
                                              //1705 --> 18
@@ -18,12 +18,7 @@ console.log(centuryYear(2000))
 
 
 
-/* function centuryYear(cen) {  
+/*function centuryYear(cen) {  
     return Math.floor((cen - 1) / 100) + 1
 }
-
-console.log(centuryYear(1705))
-console.log(centuryYear(1900))
-console.log(centuryYear(1601))
-console.log(centuryYear(2000))
 */

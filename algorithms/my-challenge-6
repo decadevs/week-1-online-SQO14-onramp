@@ -1,6 +1,6 @@
 /*function factorialize(num) {                       //Return the factorial of the provided integer.
 if(num === 0) {
-    return 1                                             //If the integer is represented with the letter n,
+    return 1                                         //If the integer is represented with the letter n,
    }                                              // a factorial is the product of all positive integers less than or equal to n.
  return num * factorialize(num - 1);
  }                                               //Factorials are often represented with the shorthand notation n!
@@ -16,3 +16,5 @@ function factorialize(num) {
   }
   return n;
 }
+
+console.log(factorialize(5))
