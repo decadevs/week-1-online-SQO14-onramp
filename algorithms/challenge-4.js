@@ -17,8 +17,7 @@ function calculateGrade(marks) {
   } else {
     return 'F';
   }
-  
-  }
+}
   
     console.log(calculateGrade([80, 80, 70])) 
     console.log(calculateGrade([19, 5, 42, 2, 77])) 
