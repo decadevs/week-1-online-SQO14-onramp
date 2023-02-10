@@ -1,0 +1,24 @@
+function centuryYear(cen) {           //The first century spans from the year 1 up to and including the year 100
+if (cen % 100 === 0) {                //The second century - from the year 101 up to and including the year 200, e.t.c.
+    return (cen / 100)                //The third century - from the year 201 up to and including the year 300
+} else {                                      //(NB: the diff btw each century = 100)    
+   return Math.ceil(cen / 100) 
+    //return Math.floor(cen / 100) + 1  
+    //return parseInt(cen / 100) + 1   
+}                                            //Task
+}                                            //Given a year, return the century it is in
+                                             
+                                             //Examples
+                                             //1705 --> 18
+ console.log(centuryYear(1705))              //1900 --> 19
+ console.log(centuryYear(1900))              //1601 --> 17
+console.log(centuryYear(1601))               //2000 --> 20
+console.log(centuryYear(2000))
+
+
+
+
+/*function centuryYear(cen) {  
+    return Math.floor((cen - 1) / 100) + 1
+}
+*/

@@ -1,0 +1,15 @@
+let obj = [                                                       //Find the sum of all ages in array of objects
+    {name: 'Uche Egbo', age: 24, occupation: 'Trader'},           //This example should return 54
+    {name: 'Solomon Ogbodo', age: 30, occupation: 'Accountant'}
+]
+
+function objArr(obj) {
+let newArr = [];
+
+for(let i of obj) {
+    newArr.push(i.age);
+}
+return newArr.reduce((a,b) => a + b)
+}
+
+console.log(objArr(obj))

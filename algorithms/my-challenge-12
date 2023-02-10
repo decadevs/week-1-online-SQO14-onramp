@@ -1,0 +1,38 @@
+let register = [
+    {name:'Tolu', age:54, game:'Chess'},                    //To return array of player names
+    {name:'Ikenna', age:19, game:'Catch'},
+    {name:'Adammu', age:78, game:'FuzzBuzz'},
+    {name:'David', age:23, game:'Chess'}
+]
+
+function getPlayersNames(arr){
+return arr.map(items => items.name)
+}
+
+let names = getPlayersNames(register)
+console.log(names)
+
+
+function getPlayersNames(register) {                   //To return array of names
+    let newArr = [];
+
+    for (i in register){
+    newArr.push(register[i].name)
+    }
+    return newArr;
+} 
+
+
+
+function playerNames(arr, str){
+    let newArr = []                            //To return names of players for a specific game ignoring the letteer case of the game
+   for (i in arr){
+     if(arr[i].game.toLowerCase() === str.toLowerCase()){
+      newArr.push(arr[i].name)
+     } 
+    } 
+    return newArr 
+  }
+  
+  console.log(playerNames(register, 'Chess')) //to return [‘Tolu’, ‘David’]
+  console.log(playerNames(register, 'chess')) //to return [‘Tolu’, ‘David’]

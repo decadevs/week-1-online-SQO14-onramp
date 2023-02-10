@@ -1,0 +1,12 @@
+function setDefaultAge(arr, n){                  //Given an array of objects containing user's information, 
+                                                   //assign a default age X for any user that did not enter
+    for (let i = 0; i < arr.length; i++){                      //his/her age and return the array
+        if(!arr[i].age) {
+            arr[i].age = n;
+        }
+    }
+    return arr;
+}
+
+console.log(setDefaultAge([{name:"XYZ", age:23}, {name:"ABC"}], 33))
+console.log(setDefaultAge([{name:"XYZ"},{name: "ASD"},{name:"CVB", age:33}], 55))

@@ -1,0 +1,20 @@
+/*function factorialize(num) {                       //Return the factorial of the provided integer.
+if(num === 0) {
+    return 1                                         //If the integer is represented with the letter n,
+   }                                              // a factorial is the product of all positive integers less than or equal to n.
+ return num * factorialize(num - 1);
+ }                                               //Factorials are often represented with the shorthand notation n!
+factorialize(5);
+                                               //For example: 5! = 1 * 2 * 3 * 4 * 5 = 120
+*/
+                                                //Only integers greater than or equal to zero will be supplied to the function.
+  
+function factorialize(num) {
+  let n = 1
+  for (let i = 1; i <= num; i++) {
+     n *= i
+  }
+  return n;
+}
+
+console.log(factorialize(5))

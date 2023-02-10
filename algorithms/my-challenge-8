@@ -1,0 +1,11 @@
+function checkPrime(num) {          //implement a function checkPrime(num) that returns true if 
+                                     //a number is a prime number and false if it is not.
+if(num <= 1) return false;
+for (var i = 2; i < num; i++) {
+ if(num % i == 0)
+    return false;
+}
+return true;
+ }
+
+console.log(checkPrime(9));

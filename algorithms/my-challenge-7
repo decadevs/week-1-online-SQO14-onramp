@@ -1,0 +1,12 @@
+function sumPrimes(num) {                               //Rewrite sumPrimes so it returns the sum of 
+  let primes = []; 
+                                                     //all prime numbers that are less than or equal to num.
+  for( let i = 2; i <= num; i++) {
+  if (primes.every((prime) => i % prime !== 0)) {
+      primes.push(i)
+  }
+  }
+  return primes.reduce((a,b) => a + b);
+}
+
+console.log(sumPrimes(10));
