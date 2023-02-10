@@ -1,0 +1,36 @@
+/*function uniqueElement(arr){                 //Write a function that takes in an array and returns the count of each unique element in the array
+       const count = {};
+        for (let i = 0; i < arr.length; i++) {
+          if (count[arr[i]]) {
+            count[arr[i]]++;
+          } else {
+            count[arr[i]] = 1;
+          }
+        }
+        return count;
+      }
+      */
+
+      function uniqueElement(arr) {
+        let count = {}
+        let set = new Set(arr)
+        let array = new Array(...set)
+
+        return Object(count)
+      }
+      
+
+/*function unique(arr){
+
+    let obj = {}
+    for (let i = 0; i < arr.length; i++) {
+      if(obj[arr[i]] === undefined){
+        obj[arr[i]] = 1
+      }else{
+        obj[arr[i]] += 1;
+      }
+    }
+    return obj;
+    }
+*/
+    console.log(uniqueElement(["java", "kotlin", "java", "java", "swift"])) //returns { “java”: 3, “kotlin”: 1, “swift”: 1 }
