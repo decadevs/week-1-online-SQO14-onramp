@@ -1,11 +1,11 @@
-function countTruthy(arr) {
-    let count = 0
-    for (let i=0; i < arr.length; i++){
-           if (i > 0 || typeof(i)== "number"){
-            count++
-           }
-    }
-    return count
-}
+function filterList(arr) {
+    let alphabets = 'abcdefgijklmnopqrstuvwxyz';
+    let list = [];
+    for(i = 0; i < arr.length; i++){
+        if(!typeof arr[i] == 'string'){
+            list.push(arr[i])
+        }
+    }return list
+ }
 
-module.exports = countTruthy
+  module.exports =filterList
